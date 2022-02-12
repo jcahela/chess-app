@@ -1,12 +1,12 @@
 import './App.css';
+import Board from './components/Board';
 
 function App() {
 
-  const boardNum = new Array(64);
 
   return (
-    <div className="container">
-      hi
+    <div>
+      <Board />
     </div>
   );
 }
